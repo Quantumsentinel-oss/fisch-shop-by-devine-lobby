@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fisch Flower Shop</title>
+
+    <style>
+      body {
+        background-image: url('https://i.imgur.com/2yaf2H1.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      h1 {
+        text-shadow: 2px 2px 5px black;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: rgb(4, 85, 236);
+        text-align: center;
+        padding: 10px;
+      }
+
+      h5, p {
+        text-shadow: 1px 1px 3px rgb(50, 50, 50);
+        background-color: rgba(255, 255, 255, 0.8);
+        color: rgb(20, 20, 20);
+        text-align: center;
+        margin: 5px;
+      }
+
+      /* ===== BOX-STYLE FLOWER LAYOUT (NOT EXCEL) ===== */
+      .flower-table {
+        width: 70%;
+        margin: 20px auto;
+        background-color: rgba(255, 255, 255, 0.85);
+        border-collapse: separate;
+        border-spacing: 15px; /* makes it look like boxes, not grid */
+      }
+
+      .flower-table td, .flower-table th {
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+      }
+
+      .flower-table th {
+        background-color: rgba(240, 240, 240, 0.9);
+      }
+
+      .flower-table tr:hover td {
+        background-color: rgba(255, 240, 240, 0.9);
+      }
+
+      .contact {
+        background-color: rgba(255, 255, 255, 0.9);
+        text-align: center;
+        width: 300px;
+        margin: 30px auto;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+      }
+
+      footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        text-align: center;
+        padding: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Fisch Flower Shop</h1>
+    <h5>We sell bouquets made with pure care</h5>
+    <p>Our Best Sellers</p>
+
+    <!-- FLOWERS USING BOX IDEA -->
+    <table class="flower-table">
+      <tr>
+        <th>Image</th>
+        <th>Flower</th>
+        <th>Description</th>
+        <th>Price</th>
+      </tr>
+
+      <tr>
+        <td><img src="assets/image.png" width="120"></td>
+        <td>Rose Bouquet</td>
+        <td>Perfect for romantic gifts</td>
+        <td>$230</td>
+      </tr>
+
+      <tr>
+        <td><img src="assets/sunflower.jpg" width="120"></td>
+        <td>Sunflower Bouquet</td>
+        <td>Bright and cheerful blooms</td>
+        <td>$150</td>
+      </tr>
+
+      <tr>
+        <td><img src="assets/daff.jpg" width="120"></td>
+        <td>Daffodil Bouquet</td>
+        <td>Quiet but magnificent aroma</td>
+        <td>$100</td>
+      </tr>
+
+      <tr>
+        <td><img src="assets/lily.jpg" width="120"></td>
+        <td>Lily Bouquet</td>
+        <td>Elegant and fragrant</td>
+        <td>$200</td>
+      </tr>
+    </table>
+
+    <div class="contact">
+      <h3>📞 Contact Us</h3>
+      <p>Phone: 0963-2315-354</p>
+      <p>Email: johnlouiejanolino@gmail.com</p>
+      <p>Location: Sta. Ana, Manila</p>
+    </div>
+
+    <footer>© 2025 Fisch Flower Shop 🌸 | Fresh blooms every day</footer>
+  </body>
+</html>
+
